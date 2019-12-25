@@ -1,0 +1,5 @@
+<launch>
+    <node name="mynteye_ros_node" pkg="mynteye_ros" type="mynteye_ros_node">
+        <rosparam command="load" file="$(find mynteye_ros)/launch/config.yaml" />
+    </node>
+</launch>

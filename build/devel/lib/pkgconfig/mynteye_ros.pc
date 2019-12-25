@@ -1,0 +1,8 @@
+prefix=/home/yuntian/catkin_ws/src/mynteye_ros/build/devel
+
+Name: mynteye_ros
+Description: Description of mynteye_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yuntian/catkin_ws/src/mynteye_ros/build/devel/lib 
+Requires: 

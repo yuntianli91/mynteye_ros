@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yuntian/catkin_ws/src/mynteye_ros/build/devel/setup.sh

@@ -1,0 +1,22 @@
+# configurations of mynteye S1030 mono camera 
+#
+# sensorfrequency
+frame_rate: 20      # image frame rate
+imu_frequency: 200  # imu frequency
+
+# imu range
+acc_range: 8        # maximum acceleration(g)
+gyr_range: 1000     # maximum angular rate(deg/s)
+
+# auto exposure control
+auto_exposure:
+  enable: 0               
+  max_gain: 48            # maximum gain
+  max_esposure_time: 240  # maximum exposure time
+  desired_brightness: 192 # desire brightness
+# manual exposure control
+manual_exposure:
+  enable: 1               
+  gain: 24        # manual gain
+  brightness: 172 # brightness
+  contrast: 120   # contrast
